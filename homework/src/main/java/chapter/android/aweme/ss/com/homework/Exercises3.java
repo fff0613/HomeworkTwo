@@ -82,6 +82,15 @@ public class Exercises3 extends AppCompatActivity implements ExercisesThreeAdapt
         intent.putExtra("ItemIndex",clickedItemIndex);
         intent.putExtra("Title",title);
         startActivity(intent);
+        
+//        TextView itemText;
+//        TextView titleItem;
+//
+//        setContentView(R.layout.activity_chatroom);
+//        itemText = findViewById(R.id.tv_content_info);
+//        itemText.setText("item " +(clickedItemIndex+1));
+//        titleItem = findViewById(R.id.tv_with_name);
+//        titleItem.setText("我与"+title+"的对话");
     }
 }
 
