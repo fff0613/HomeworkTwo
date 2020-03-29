@@ -77,7 +77,6 @@ public class Exercises3 extends AppCompatActivity implements ExercisesThreeAdapt
 
     @Override
     public void onListItemClick(int clickedItemIndex,String title) {
-        Log.d("exercise2", "onListItemClick: ");
         Intent intent = new Intent(this,ChatActivity.class);
         intent.putExtra("ItemIndex",clickedItemIndex);
         intent.putExtra("Title",title);
