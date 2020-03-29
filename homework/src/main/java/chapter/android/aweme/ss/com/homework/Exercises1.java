@@ -105,4 +105,7 @@ public class Exercises1 extends AppCompatActivity {
         logAndAppend(ON_RESTORE_INSTANCE_STATE);
     }
 
+     public void resetLifecycleDisplay(View view) {
+        mLifecycleDisplay.setText("Lifecycle callbacks:\n");
+    }
 }
